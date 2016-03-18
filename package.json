@@ -1,0 +1,30 @@
+{
+  "name": "node-shukei",
+  "description": "Client library for SHUKEI",
+  "version": "0.1.0",
+  "author": "Ryo Murayama <ryo@uniba.jp>",
+  "bugs": {
+    "url": "https://github.com/uniba/node-shukei/issues"
+  },
+  "devDependencies": {
+    "fixpack": "^2.3.0",
+    "mocha": "^2.4.5",
+    "nock": "^7.2.2"
+  },
+  "homepage": "https://github.com/uniba/node-shukei#readme",
+  "keywords": [
+    "shukei",
+    "uniba"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "uniba/node-shukei",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "moment": "^2.12.0",
+    "superagent": "^1.8.1"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "headers": [
+    "2016-02-08T00:00:00+09:00",
+    "2016-02-15T00:00:00+09:00",
+    "2016-02-22T00:00:00+09:00"
+  ],
+  "rows": [
+    {
+      "user": {
+        "id": 2,
+        "email": "ryo@uniba.jp",
+        "first_name": "Ryo",
+        "last_name": "Murayama"
+      },
+      "data": [
+        {
+          "value": 0,
+          "header": "2016-02-08T00:00:00+09:00"
+        },
+        {
+          "value": 4.1666666865349,
+          "header": "2016-02-15T00:00:00+09:00"
+        },
+        {
+          "value": 0,
+          "header": "2016-02-22T00:00:00+09:00"
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": 14,
+        "email": "sei@uniba.jp",
+        "first_name": "Sei",
+        "last_name": "Kataoka"
+      },
+      "data": [
+        {
+          "value": 0,
+          "header": "2016-02-08T00:00:00+09:00"
+        },
+        {
+          "value": 3.1666666865349,
+          "header": "2016-02-15T00:00:00+09:00"
+        },
+        {
+          "value": 0,
+          "header": "2016-02-22T00:00:00+09:00"
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": 12,
+        "email": "seiya@uniba.jp",
+        "first_name": "Seiya",
+        "last_name": "Konno"
+      },
+      "data": [
+        {
+          "value": 0,
+          "header": "2016-02-08T00:00:00+09:00"
+        },
+        {
+          "value": 0.66666668653488,
+          "header": "2016-02-15T00:00:00+09:00"
+        },
+        {
+          "value": 0,
+          "header": "2016-02-22T00:00:00+09:00"
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": 17,
+        "email": "haruma@uniba.jp",
+        "first_name": "Haruma",
+        "last_name": "Kikuchi"
+      },
+      "data": [
+        {
+          "value": 0,
+          "header": "2016-02-08T00:00:00+09:00"
+        },
+        {
+          "value": 5.7291666865349,
+          "header": "2016-02-15T00:00:00+09:00"
+        },
+        {
+          "value": 0,
+          "header": "2016-02-22T00:00:00+09:00"
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": 24,
+        "email": "yumi@uniba.jp",
+        "first_name": "Yumi",
+        "last_name": "Nishida"
+      },
+      "data": [
+        {
+          "value": 0,
+          "header": "2016-02-08T00:00:00+09:00"
+        },
+        {
+          "value": 20.25,
+          "header": "2016-02-15T00:00:00+09:00"
+        },
+        {
+          "value": 0,
+          "header": "2016-02-22T00:00:00+09:00"
+        }
+      ]
+    }
+  ]
+}
