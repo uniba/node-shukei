@@ -1,5 +1,5 @@
 {
-  "name": "node-shukei",
+  "name": "shukei",
   "description": "Client library for SHUKEI",
   "version": "0.1.0",
   "author": "Ryo Murayama <ryo@uniba.jp>",
