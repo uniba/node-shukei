@@ -9,7 +9,7 @@ const data = require('./fixtures/data');
 
 describe('stat', () => {
   it('normal', () => {
-    const scope = nock('http://sheepy.baaa').get(/.*/).reply(200, data);    
+    const scope = nock('http://sheepy.baaa').get(/.*/).reply(200, data);
     const api = shukei('http://sheepy.baaa');
     const from = new Date(2016, 2, 14);
     const till = new Date(2016, 2, 21);
@@ -20,7 +20,7 @@ describe('stat', () => {
   });
 
   it('unit = week', () => {
-    const scope = nock('http://sheepy.baaa').get(/.*/).reply(200, data);    
+    const scope = nock('http://sheepy.baaa').get(/.*/).reply(200, data);
     const api = shukei('http://sheepy.baaa');
     const from = new Date(2016, 2, 14);
     const till = new Date(2016, 2, 21);
@@ -28,7 +28,18 @@ describe('stat', () => {
     return api.stat(from, till, { unit: 'week' }).user('ryo@uniba.jp').then((mat) => {
       assert(mat instanceof StatsMatrix);
     });
-  });  
+  });
+
+  it('raw = true', () => {
+    const scope = nock('http://sheepy.baaa').get(/.*/).reply(200, data);
+    const api = shukei('http://sheepy.baaa');
+    const from = new Date(2016, 2, 14);
+    const till = new Date(2016, 2, 21);
+
+    return api.stat(from, till, { unit: 'week', raw: true }).user('ryo@uniba.jp').then((mat) => {
+      assert(!(mat instanceof StatsMatrix));
+    });
+  });
 
   it('invalid host must cause error', () => {
     const scope = nock('http://baaa').get(/.*/).replyWithError('baaa');
