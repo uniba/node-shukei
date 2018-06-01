@@ -1,7 +1,7 @@
 {
   "name": "shukei",
   "description": "Client library for SHUKEI",
-  "version": "0.6.2",
+  "version": "0.7.0",
   "author": "Ryo Murayama <ryo@uniba.jp>",
   "bugs": {
     "url": "https://github.com/uniba/node-shukei/issues"
